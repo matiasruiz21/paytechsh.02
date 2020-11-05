@@ -1,0 +1,22 @@
+{
+  "name": "paytechsh02",
+  "version": "1.0.0",
+  "description": "version mejorada de la pagina paytechsh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasruiz21/paytechsh.02.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasruiz21/paytechsh.02/issues"
+  },
+  "homepage": "https://github.com/matiasruiz21/paytechsh.02#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
