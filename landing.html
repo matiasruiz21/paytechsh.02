@@ -6,19 +6,23 @@
     <meta name="theme-color" content="#000000" />
     <link rel="shortcut icon" href="./assets/img/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/lightslider.css" />
+    
     <!-- Referencia FontAwesome-->
-    <link
-      rel="stylesheet"
-      href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
     <!-- Referencia TailwindCSS -->
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+    />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/lightslider.js"></script>
-   
 
     <title>Paytechsh | Equipamiento medico y de rescate</title>
   </head>
@@ -37,7 +41,7 @@
         >
           <a
             class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+            href="#"
             >Paytechsh</a
           ><button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -110,50 +114,51 @@
             class="w-full h-full absolute opacity-50 bg-black"
           ></span>
         </div>
-        <div class="container relative mx-auto">
+        <div class="container relative mx-auto" data-aos="fade-right">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div
-                  class="font-paytech text-2xl font-bold uppercase p-4 text-white"
+              <div
+                class="font-paytech text-2xl font-bold uppercase p-4 text-white"
+              >
+                <svg
+                  class="w-24 inline-block"
+                  viewBox="0 0 475 456"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    class="w-24 inline-block"
-                    viewBox="0 0 475 456"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      x="412.569"
-                      y="383.25"
-                      width="455.219"
-                      height="135.567"
-                      transform="rotate(-155 412.569 383.25)"
-                      fill="white"
-                    />
-                    <rect
-                      x="474.862"
-                      y="190.866"
-                      width="455.219"
-                      height="135.567"
-                      transform="rotate(155 474.862 190.866)"
-                      fill="white"
-                    />
-                    <rect x="152" width="166" height="456" fill="white" />
-                    <path
-                      d="M230.327 52.7144V71H219.634V19.1016H239.88C243.777 19.1016 247.199 19.8145 250.145 21.2402C253.116 22.666 255.397 24.6978 256.989 27.3354C258.581 29.9494 259.377 32.9316 259.377 36.2822C259.377 41.3675 257.631 45.3835 254.138 48.3301C250.668 51.2529 245.856 52.7144 239.702 52.7144H230.327ZM230.327 44.0527H239.88C242.708 44.0527 244.858 43.3874 246.331 42.0566C247.829 40.7259 248.577 38.8249 248.577 36.3535C248.577 33.8109 247.829 31.7554 246.331 30.187C244.834 28.6187 242.767 27.8107 240.129 27.7632H230.327V44.0527ZM248.934 120.307H230.185L226.62 131H215.249L234.569 79.1016H244.478L263.904 131H252.534L248.934 120.307ZM233.072 111.645H246.046L239.523 92.2188L233.072 111.645ZM237.527 162.484L248.328 139.102H260.019L242.981 172.18V191H232.109V172.18L215.071 139.102H226.798L237.527 162.484ZM258.7 207.763H242.803V251H232.109V207.763H216.426V199.102H258.7V207.763ZM250.858 288.508H230.327V302.41H254.423V311H219.634V259.102H254.352V267.763H230.327V280.132H250.858V288.508ZM260.375 353.712C259.971 359.297 257.904 363.693 254.173 366.901C250.466 370.109 245.571 371.713 239.488 371.713C232.834 371.713 227.594 369.479 223.768 365.012C219.966 360.521 218.065 354.366 218.065 346.548V343.375C218.065 338.385 218.945 333.989 220.703 330.187C222.462 326.385 224.969 323.474 228.224 321.454C231.503 319.41 235.305 318.389 239.63 318.389C245.619 318.389 250.442 319.993 254.102 323.201C257.761 326.409 259.876 330.912 260.447 336.71H249.753C249.492 333.359 248.553 330.936 246.937 329.438C245.345 327.918 242.91 327.157 239.63 327.157C236.066 327.157 233.393 328.44 231.61 331.007C229.852 333.549 228.949 337.506 228.901 342.876V346.797C228.901 352.405 229.745 356.505 231.432 359.095C233.143 361.685 235.828 362.98 239.488 362.98C242.791 362.98 245.25 362.231 246.866 360.734C248.506 359.214 249.444 356.873 249.682 353.712H260.375ZM261.872 431H251.179V408.758H230.327V431H219.634V379.102H230.327V400.132H251.179V379.102H261.872V431Z"
-                      fill="#00304E"
-                    />
-                  </svg>
-                </div>
-                <h1 class="text-white font-semibold md:text-5xl uppercase text-4xl">
-                  Paytechsh
-                </h1>
-                <p class="mt-4 md:text-lg text-gray-300 text-sm">
-                  Equipamiento medico, de seguridad y rescate. Ofreciendo
-                  soluciones para la atención prehospitalaria, rescate, y
-                  seguridad industrial.
-                </p>
-            
+                  <rect
+                    x="412.569"
+                    y="383.25"
+                    width="455.219"
+                    height="135.567"
+                    transform="rotate(-155 412.569 383.25)"
+                    fill="white"
+                  />
+                  <rect
+                    x="474.862"
+                    y="190.866"
+                    width="455.219"
+                    height="135.567"
+                    transform="rotate(155 474.862 190.866)"
+                    fill="white"
+                  />
+                  <rect x="152" width="166" height="456" fill="white" />
+                  <path
+                    d="M230.327 52.7144V71H219.634V19.1016H239.88C243.777 19.1016 247.199 19.8145 250.145 21.2402C253.116 22.666 255.397 24.6978 256.989 27.3354C258.581 29.9494 259.377 32.9316 259.377 36.2822C259.377 41.3675 257.631 45.3835 254.138 48.3301C250.668 51.2529 245.856 52.7144 239.702 52.7144H230.327ZM230.327 44.0527H239.88C242.708 44.0527 244.858 43.3874 246.331 42.0566C247.829 40.7259 248.577 38.8249 248.577 36.3535C248.577 33.8109 247.829 31.7554 246.331 30.187C244.834 28.6187 242.767 27.8107 240.129 27.7632H230.327V44.0527ZM248.934 120.307H230.185L226.62 131H215.249L234.569 79.1016H244.478L263.904 131H252.534L248.934 120.307ZM233.072 111.645H246.046L239.523 92.2188L233.072 111.645ZM237.527 162.484L248.328 139.102H260.019L242.981 172.18V191H232.109V172.18L215.071 139.102H226.798L237.527 162.484ZM258.7 207.763H242.803V251H232.109V207.763H216.426V199.102H258.7V207.763ZM250.858 288.508H230.327V302.41H254.423V311H219.634V259.102H254.352V267.763H230.327V280.132H250.858V288.508ZM260.375 353.712C259.971 359.297 257.904 363.693 254.173 366.901C250.466 370.109 245.571 371.713 239.488 371.713C232.834 371.713 227.594 369.479 223.768 365.012C219.966 360.521 218.065 354.366 218.065 346.548V343.375C218.065 338.385 218.945 333.989 220.703 330.187C222.462 326.385 224.969 323.474 228.224 321.454C231.503 319.41 235.305 318.389 239.63 318.389C245.619 318.389 250.442 319.993 254.102 323.201C257.761 326.409 259.876 330.912 260.447 336.71H249.753C249.492 333.359 248.553 330.936 246.937 329.438C245.345 327.918 242.91 327.157 239.63 327.157C236.066 327.157 233.393 328.44 231.61 331.007C229.852 333.549 228.949 337.506 228.901 342.876V346.797C228.901 352.405 229.745 356.505 231.432 359.095C233.143 361.685 235.828 362.98 239.488 362.98C242.791 362.98 245.25 362.231 246.866 360.734C248.506 359.214 249.444 356.873 249.682 353.712H260.375ZM261.872 431H251.179V408.758H230.327V431H219.634V379.102H230.327V400.132H251.179V379.102H261.872V431Z"
+                    fill="#00304E"
+                  />
+                </svg>
+              </div>
+              <h1
+                class="text-white font-semibold md:text-5xl uppercase text-4xl"
+              >
+                Paytechsh
+              </h1>
+              <p class="mt-4 md:text-lg text-gray-300 text-sm">
+                Equipamiento medico, de seguridad y rescate. Ofreciendo
+                soluciones para la atención prehospitalaria, rescate, y
+                seguridad industrial.
+              </p>
             </div>
           </div>
         </div>
@@ -183,7 +188,11 @@
       <section class="relative py-20">
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4" style="height: 20rem;">
+            <div
+              class="w-full md:w-4/12 ml-auto mr-auto px-4"
+              style="height: 20rem"
+              data-aos="fade-right"
+            >
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
@@ -192,15 +201,21 @@
             </div>
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
-                <h3 class="lg:text-3xl font-semibold mt-4 text-2xl">Equipando a todo el pais</h3>
-                <p class="mt-4 lg:text-lg leading-relaxed text-gray-600 text-base">
-                  Nos encargamos de la confección a medida del equipamiento
-                  requerido por hospitales, equipos de rescate y seguridad,
-                  ademas de ofrecer soluciones especificas para PyMEs
-                </p>
+                <div data-aos="fade-left">
+                  <h3 class="lg:text-3xl font-semibold mt-4 text-2xl">
+                    Equipando a todo el pais
+                  </h3>
+                  <p
+                    class="mt-4 lg:text-lg leading-relaxed text-gray-600 text-base"
+                  >
+                    Nos encargamos de la confección a medida del equipamiento
+                    requerido por hospitales, equipos de rescate y seguridad,
+                    ademas de ofrecer soluciones especificas para PyMEs
+                  </p>
+                </div>
                 <ul class="list-none mt-6">
                   <li class="py-2">
-                    <div class="flex items-center">
+                    <div class="flex items-center" data-aos="fade-left">
                       <div>
                         <span
                           class="text-lg font-semibold inline-block py-1 px-2 uppercase mr-3"
@@ -215,7 +230,7 @@
                     </div>
                   </li>
                   <li class="py-2">
-                    <div class="flex items-center">
+                    <div class="flex items-center" data-aos="fade-left">
                       <div>
                         <span
                           class="text-lg font-semibold inline-block py-1 px-2 uppercase mr-3"
@@ -228,7 +243,7 @@
                     </div>
                   </li>
                   <li class="py-2">
-                    <div class="flex items-center">
+                    <div class="flex items-center" data-aos="fade-left">
                       <div>
                         <span
                           class="text-lg font-semibold inline-block py-1 px-2 uppercase mr-3"
@@ -249,82 +264,120 @@
 
       <!-- 3ra Sección (Productos) -->
 
-      <section class="py-20 ">
+      <section class="py-20">
         <div class="container mx-auto">
           <div class="flex flex-wrap justify-center text-center mb-12">
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="lg:text-4xl font-semibold text-2xl">
                 Algunos de nuestros productos
               </h2>
-              
             </div>
           </div>
 
           <!-- Image Slider-->
           <div class="container">
-           <ul id="autoWidth" class="cs-hidden">
-
-            <!-- Card 1-->
-             <li class="item-a">
-              <div class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12">
-                <img class="h-64 object-cover" src="assets\img\bolso3.jpg" alt="Sunset in the mountains">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Bolso de Emergencia</div>
-                  <p class="text-gray-700 text-base">
-                    Tela impermeable. Bolsillo lateral, bolsillos para medicamentos, ampollas, etc.
-                  </p>
+            <ul id="autoWidth" class="cs-hidden">
+              <!-- Card 1-->
+              <li class="item-a">
+                <div
+                  class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12"
+                >
+                  <img
+                    class="h-64 object-cover"
+                    src="assets\img\bolso3.jpg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="m-4 h-32">
+                    <span class="font-bold">Bolso de Emergencia</span>
+                    <span class="block text-gray-700 text-xs">
+                      Tela impermeable. Bolsillo lateral, bolsillos para
+                      medicamentos, ampollas, etc.
+                    </span>
+                  </div>
                 </div>
-              </div>
-             </li>
-             <!-- Card 2-->
-             <li class="item-a">
-              <div class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12">
-                <img class="h-64 object-cover" src="assets\img\bolso2.jpg" alt="Sunset in the mountains">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Bolso de Anestesia</div>
-                  <p class="text-gray-700 text-base">
-                    Tela impermeable. Bolsillos para ampollas, laringoscopio, mangos, cánulas de mayo y máscara, separadores en su interior.
-                  </p>
+              </li>
+              <!-- Card 2-->
+              <li class="item-a">
+                <div
+                  class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12"
+                >
+                  <img
+                    class="h-64 object-cover"
+                    src="assets\img\bolso2.jpg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="m-4 h-32">
+                    <span class="font-bold">Bolso de Anestesia</span>
+                    <span class="block text-gray-700 text-xs">
+                      Tela impermeable. Bolsillos para ampollas, laringoscopio,
+                      mangos, cánulas de mayo y máscara, separadores en su
+                      interior.
+                    </span>
+                  </div>
                 </div>
-              </div>
-             </li>
-             <!-- Card 3-->
-             <li class="item-a">
-              <div class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12">
-                <img class="h-64 w-full object-cover" src="assets\img\mochilaviaaerea4.jpg" alt="Sunset in the mountains">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Mochila Via Aerea</div>
-                  <p class="text-gray-700 text-base">
-                    Tela impermeable. Bolsillo lateral grande, 2 bolsillos laterales, bolsillos interiores para laringoscopio, cánulas de mayo, sondas, sujetadores de tubo de óxigeno, espacio para bosla de Ambú - Adulto y pediátrico
-                  </p>
+              </li>
+              <!-- Card 3-->
+              <li class="item-a">
+                <div
+                  class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12"
+                >
+                  <img
+                    class="h-64 w-full object-cover"
+                    src="assets\img\mochilaviaaerea4.jpg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="m-4 h-32">
+                    <span class="font-bold">Mochila Via Aerea</span>
+                    <span class="block text-gray-700 text-xs">
+                      Tela impermeable. Bolsillo lateral grande, 2 bolsillos
+                      laterales, bolsillos interiores para laringoscopio,
+                      cánulas de mayo, sondas, sujetadores de tubo de óxigeno,
+                      espacio para bosla de Ambú - Adulto y pediátrico
+                    </span>
+                  </div>
                 </div>
-              </div>
-             </li>
-             <!-- Card 4-->
-             <li class="item-a">
-              <div class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12">
-                <img class="h-64 w-full object-cover" src="assets\img\chaleco de extricacion adulto.jpg" alt="Sunset in the mountains">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Chaleco de Extricacion Adulto</div>
-                  <p class="text-gray-700 text-base">
-                    Cuenta con correas para mentón y frente y suplemento cervical y bolso.
-                  </p>
+              </li>
+              <!-- Card 4-->
+              <li class="item-a">
+                <div
+                  class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12"
+                >
+                  <img
+                    class="h-64 w-full object-cover"
+                    src="assets\img\chaleco de extricacion adulto.jpg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="m-4 h-32">
+                    <span class="font-bold"
+                      >Chaleco de Extricacion Adulto
+                    </span>
+                    <span class="block text-gray-700 text-xs">
+                      Cuenta con correas para mentón y frente y suplemento
+                      cervical y bolso.
+                    </span>
+                  </div>
                 </div>
-              </div>
-             </li>
-             <!-- Card 5-->
-             <li class="item-a">
-              <div class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12">
-                <img class="h-64 object-cover " src="assets\img\spider.jpg" alt="Sunset in the mountains">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Spider</div>
-                  <p class="text-gray-700 text-base">
-                    Correas pre-armadas de rescate; permite la extracción del paciente en diferentes cúbitos
-                  </p>
+              </li>
+              <!-- Card 5-->
+              <li class="item-a">
+                <div
+                  class="w-64 rounded overflow-hidden shadow-lg mb-6 md:mx-3 ml-12"
+                >
+                  <img
+                    class="h-64 object-cover"
+                    src="assets\img\spider.jpg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="m-4 h-32">
+                    <span class="font-bold">Spider</span>
+                    <span class="block text-gray-700 text-xs">
+                      Correas pre-armadas de rescate; permite la extracción del
+                      paciente en diferentes cúbitos
+                    </span>
+                  </div>
                 </div>
-              </div>
-             </li>
-           </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -333,25 +386,25 @@
 
       <section class="relative block py-20 bg-gray-900">
         <div
-        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style="height: 80px; transform: translateZ(0px)"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px; transform: translateZ(0px)"
         >
-          <polygon
-            class="text-gray-900 fill-current"
-            points="2560 0 2560 100 0 100"
-          ></polygon>
-        </svg>
-      </div>
-        <div class="container mx-auto px-4">
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-900 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4" data-aos="fade-up">
           <div class="flex flex-wrap justify-center">
             <div class="w-full lg:w-6/12 px-4">
               <div
@@ -441,13 +494,16 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4">
-            <h4 class="text-3xl font-semibold">Sigamos en contacto</h4>
+            <div data-aos="fade-right">
+              <h4 class="text-3xl font-semibold">Sigamos en contacto</h4>
             <h5 class="text-lg mt-0 mb-2 text-gray-700">
               Encontranos en estas plataformas
             </h5>
+            </div>
             <div class="mt-6 flex flex-row mb-6">
               <div
                 class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                data-aos="zoom-in"
               >
                 <a href="#" target="_blank">
                   <i class="flex fab fa-twitter"></i
@@ -456,6 +512,7 @@
 
               <div
                 class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                data-aos="zoom-in"
               >
                 <a
                   href="https://www.facebook.com/Paytechsh-1589295641163926"
@@ -467,6 +524,7 @@
 
               <div
                 class="bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                data-aos="zoom-in"
               >
                 <a
                   href="https://www.instagram.com/paytechsh/"
@@ -479,6 +537,7 @@
 
               <div
                 class="bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                data-aos="zoom-in"
               >
                 <a
                   href="https://wa.me/+543415504254"
@@ -490,26 +549,72 @@
               </div>
             </div>
           </div>
-          <div class=" lg:w-6/12 px-4 relative">
-            <svg class="w-32 lg:absolute static right-0 mr-4 mt-4" viewBox="0 0 517 498" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="lg:w-6/12 px-4 relative">
+            <svg
+              class="w-32 lg:absolute static right-0 mr-4 mt-4"
+              viewBox="0 0 517 498"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <g filter="url(#filter0_d)">
-              <rect x="418.569" y="387.25" width="455.219" height="135.567" transform="rotate(-155 418.569 387.25)" fill="#00304E"/>
-              <rect x="480.862" y="194.866" width="455.219" height="135.567" transform="rotate(155 480.862 194.866)" fill="#00304E"/>
-              <rect x="158" y="4" width="166" height="456" fill="#00304E"/>
-              <path d="M232.281 54.1875V72H226.281V26.5H243.062C248.042 26.5 251.937 27.7708 254.75 30.3125C257.583 32.8542 259 36.2188 259 40.4062C259 44.8229 257.615 48.2292 254.844 50.625C252.094 53 248.146 54.1875 243 54.1875H232.281ZM232.281 49.2812H243.062C246.271 49.2812 248.729 48.5312 250.437 47.0312C252.146 45.5104 253 43.3229 253 40.4688C253 37.7604 252.146 35.5938 250.437 33.9688C248.729 32.3438 246.385 31.5 243.406 31.4375H232.281V49.2812ZM251.406 120.125H232.344L228.062 132H221.875L239.25 86.5H244.5L261.906 132H255.75L251.406 120.125ZM234.156 115.188H249.625L241.875 93.9062L234.156 115.188ZM240.156 169.344L252.031 146.5H258.844L243.156 175.031V192H237.156V175.031L221.469 146.5H228.344L240.156 169.344ZM257.719 211.438H243.094V252H237.125V211.438H222.531V206.5H257.719V211.438ZM252 290.969H232.281V307.094H255.187V312H226.281V266.5H254.875V271.438H232.281V286.062H252V290.969ZM259.75 357.562C259.187 362.375 257.406 366.094 254.406 368.719C251.427 371.323 247.458 372.625 242.5 372.625C237.125 372.625 232.812 370.698 229.562 366.844C226.333 362.99 224.719 357.833 224.719 351.375V347C224.719 342.771 225.469 339.052 226.969 335.844C228.49 332.635 230.635 330.177 233.406 328.469C236.177 326.74 239.385 325.875 243.031 325.875C247.865 325.875 251.74 327.229 254.656 329.938C257.573 332.625 259.271 336.354 259.75 341.125H253.719C253.198 337.5 252.062 334.875 250.312 333.25C248.583 331.625 246.156 330.812 243.031 330.812C239.198 330.812 236.187 332.229 234 335.062C231.833 337.896 230.75 341.927 230.75 347.156V351.562C230.75 356.5 231.781 360.427 233.844 363.344C235.906 366.26 238.792 367.719 242.5 367.719C245.833 367.719 248.385 366.969 250.156 365.469C251.948 363.948 253.135 361.312 253.719 357.562H259.75ZM261.25 432H255.219V410.969H232.281V432H226.281V386.5H232.281V406.062H255.219V386.5H261.25V432Z" fill="white"/>
+                <rect
+                  x="418.569"
+                  y="387.25"
+                  width="455.219"
+                  height="135.567"
+                  transform="rotate(-155 418.569 387.25)"
+                  fill="#00304E"
+                />
+                <rect
+                  x="480.862"
+                  y="194.866"
+                  width="455.219"
+                  height="135.567"
+                  transform="rotate(155 480.862 194.866)"
+                  fill="#00304E"
+                />
+                <rect x="158" y="4" width="166" height="456" fill="#00304E" />
+                <path
+                  d="M232.281 54.1875V72H226.281V26.5H243.062C248.042 26.5 251.937 27.7708 254.75 30.3125C257.583 32.8542 259 36.2188 259 40.4062C259 44.8229 257.615 48.2292 254.844 50.625C252.094 53 248.146 54.1875 243 54.1875H232.281ZM232.281 49.2812H243.062C246.271 49.2812 248.729 48.5312 250.437 47.0312C252.146 45.5104 253 43.3229 253 40.4688C253 37.7604 252.146 35.5938 250.437 33.9688C248.729 32.3438 246.385 31.5 243.406 31.4375H232.281V49.2812ZM251.406 120.125H232.344L228.062 132H221.875L239.25 86.5H244.5L261.906 132H255.75L251.406 120.125ZM234.156 115.188H249.625L241.875 93.9062L234.156 115.188ZM240.156 169.344L252.031 146.5H258.844L243.156 175.031V192H237.156V175.031L221.469 146.5H228.344L240.156 169.344ZM257.719 211.438H243.094V252H237.125V211.438H222.531V206.5H257.719V211.438ZM252 290.969H232.281V307.094H255.187V312H226.281V266.5H254.875V271.438H232.281V286.062H252V290.969ZM259.75 357.562C259.187 362.375 257.406 366.094 254.406 368.719C251.427 371.323 247.458 372.625 242.5 372.625C237.125 372.625 232.812 370.698 229.562 366.844C226.333 362.99 224.719 357.833 224.719 351.375V347C224.719 342.771 225.469 339.052 226.969 335.844C228.49 332.635 230.635 330.177 233.406 328.469C236.177 326.74 239.385 325.875 243.031 325.875C247.865 325.875 251.74 327.229 254.656 329.938C257.573 332.625 259.271 336.354 259.75 341.125H253.719C253.198 337.5 252.062 334.875 250.312 333.25C248.583 331.625 246.156 330.812 243.031 330.812C239.198 330.812 236.187 332.229 234 335.062C231.833 337.896 230.75 341.927 230.75 347.156V351.562C230.75 356.5 231.781 360.427 233.844 363.344C235.906 366.26 238.792 367.719 242.5 367.719C245.833 367.719 248.385 366.969 250.156 365.469C251.948 363.948 253.135 361.312 253.719 357.562H259.75ZM261.25 432H255.219V410.969H232.281V432H226.281V386.5H232.281V406.062H255.219V386.5H261.25V432Z"
+                  fill="white"
+                />
               </g>
               <defs>
-              <filter id="filter0_d" x="-6.10352e-05" y="0" width="517" height="498" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-              <feOffset dx="15" dy="17"/>
-              <feGaussianBlur stdDeviation="10.5"/>
-              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.44 0"/>
-              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-              </filter>
+                <filter
+                  id="filter0_d"
+                  x="-6.10352e-05"
+                  y="0"
+                  width="517"
+                  height="498"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  />
+                  <feOffset dx="15" dy="17" />
+                  <feGaussianBlur stdDeviation="10.5" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.44 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow"
+                    result="shape"
+                  />
+                </filter>
               </defs>
-              </svg>
+            </svg>
           </div>
         </div>
         <hr class="my-6 border-gray-400" />
@@ -538,4 +643,16 @@
     }
   </script>
   <script src="js/script.js" type="text/javascript"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    AOS.init({
+      delay: 200,
+      duration: 1200,
+      once: false,
+    });
+  </script>
 </html>
