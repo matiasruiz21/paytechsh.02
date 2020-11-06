@@ -838,11 +838,10 @@
                             }
                             $this.touchMove(endCoords.pageY, startCoords.pageY);
                         } else {
-                            if (xMovement > settings.swipeThreshold) {
+                            if ((xMovement * 3) > yMovement) {
                                 e.preventDefault();
-                                $this.touchMove(endCoords.pageX, startCoords.pageX);
                             }
-                            
+                            $this.touchMove(endCoords.pageX, startCoords.pageX);
                         }
 
                     });
