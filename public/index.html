@@ -24,6 +24,7 @@
       integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/hamburguesa.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/lightslider.js"></script>
 
@@ -38,27 +39,26 @@
       >
         <!-- PAYTECHSH y button to callapse-->
         <div
-          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start "
         >
-          <a
-            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-            href="https://paytechsh.com/"
-            >Paytechsh</a
-          ><button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none link"
-            type="button"
+          <div>
+            <a
+              class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+              href="https://paytechsh.com/"
+              >Paytechsh</a
+            >
+          </div>
+
+          <div
             id="btnSlideDown"
+            class="outline-none focus:outline-none cursor-pointer"
           >
-            <i class="text-white fas fa-bars"></i>
-          </button>
-          <!-- Codigo de la hamburgesa que se tranforma (HACER MAÑANA)-->
-          <!--<div id="wrapper">
             <div class="circle icon">
               <span class="line top"></span>
               <span class="line middle"></span>
               <span class="line bottom"></span>
             </div>
-            </div> -->
+          </div>
         </div>
 
         <!-- Iconos -->
@@ -66,7 +66,7 @@
           class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
           id="box"
         >
-          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto submenu">
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs"
@@ -666,6 +666,6 @@
 
     function show_alert() {
       alert("Mensaje enviado correctamente!");
-    } 
+    }
   </script>
 </html>
